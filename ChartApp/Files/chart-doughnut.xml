@@ -1,0 +1,24 @@
+<Chart Width="500" Height="500">
+  <Series>
+    <Series Name="Products" Legend="Legend1" XValueType="String" YValueType="Int32" ChartType="Doughnut" ChartArea="Default">
+      <Points>
+        <DataPoint YValues="800" AxisLabel="Computer" />
+        <DataPoint YValues="1200" AxisLabel="Mouse" />
+        <DataPoint YValues="2300" AxisLabel="Keyboard" />
+        <DataPoint YValues="4000" AxisLabel="Monitor" />
+      </Points>
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea Name="Default">
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="Legend1" Title="Product">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title Name="Title1" Text="Product Order Detail">
+    </Title>
+  </Titles>
+</Chart>
